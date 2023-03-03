@@ -1,0 +1,34 @@
+<!--Forms
+... capurar dados de entrda
+...Input ->  Entrada
+
+   Action -> define para qual url sera os dados,vazio envia para mesma url
+   Method
+         GET
+         POST
+-->
+
+<form action="" method="get" enctype="multipart/form-data">
+    <h1>Digite Seu Endereço</h1>
+    <label>
+         Rua:
+    <input type="text" name="rua" autocomplete="street-address">
+     </label>
+
+    <label>
+         Nùmero:
+    <input type="text" name="rua" autocomplete="cc-number">
+    </label>
+    
+    <label>
+        Email:
+        <input type="email" name="email">
+    </label>
+    
+    <label>
+        Email:
+        <input type="file" name="arquivo">
+    </label>
+    <button type="reset">Reset</button>
+    <button type="submit">Enviar Dados</button>
+</form>
